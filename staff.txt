@@ -1,0 +1,8 @@
+{
+  "Staff": {
+    "Username": "xemicolon",
+    "Password": "12345",
+    "Email": "admin@snbank.com",
+    "Full Name": "Tobi Light"
+  }
+}
