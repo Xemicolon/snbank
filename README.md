@@ -24,7 +24,7 @@ You are presented with two options and prompted to select any:
 <br/>
 <br/>
 
-## IF THE USER SELECTS STAFF LOGIN
+## If the user selects Staff Login
 The user will be asked for their username and password, the program will then check the pre-defined staff.txt file (as seen above) and verify that the username and password are correct. If incorrect, user will see an error message and told to try again. 
 
 After user login is successful, a new file will be created to store the user session and staff is presented with the following options: 
@@ -35,7 +35,7 @@ After user login is successful, a new file will be created to store the user ses
 <br/>
 
 ## If staff selects Create bank account
-Staff should be made to supply the following:
+Staff should be made to supply the following:  
 Account name  
 Opening Balance  
 Account Type  
