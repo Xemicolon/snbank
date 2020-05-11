@@ -74,9 +74,9 @@ while True:
                 account_type = int(input(
                     f'Invalid input! Select account type below using 1 or 2\n\t1 - Savings\n\t2 - Current\nChoice: '))
             if account_type == 1:
-                account_type = 'Savings'
+                account_type = 'Savings Account'
             elif account_type == 2:
-                account_type = 'Current'
+                account_type = 'Current Account'
             else:
                 continue
             print(f'Account Type: {account_type} account')
@@ -117,8 +117,8 @@ while True:
             continue
 
         if bank_choice == 2:
-            account_number = (input(
-                f'Please enter account number to get account details: \n'))
+            account_number = input(
+                f'Please enter account number to get account details: \n')
             check_account = {
                 'Account Number': account_number
             }
@@ -131,7 +131,6 @@ while True:
                             for key, value in user_details.items():
                                 print(f'{key} - {value}')
                         continue
-        
 
         if bank_choice == 3:
             os.remove('session.txt')

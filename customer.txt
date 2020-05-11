@@ -1,0 +1,1 @@
+[{"xemicolon": [{"Account Name": "Tobi Light", "Account Number": "0211374933", "Opening Balance": "1000000000.00", "Account Type": "Current", "Account Email": "xemicolon@sng.com"}]}, {"xemicolon": [{"Account Name": "Agunloye Oluwatobiloba", "Account Number": "8747795273", "Opening Balance": "120000.00", "Account Type": "Savings Account", "Account Email": "tobilight@light.io"}]}]
