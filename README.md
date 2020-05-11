@@ -34,7 +34,7 @@ After user login is successful, a new file will be created to store the user ses
 <br/> 
 <br/>
 
-#### If staff selects Create bank account
+## If staff selects Create bank account
 Staff should be made to supply the following:
 Account name  
 Opening Balance  
@@ -49,7 +49,8 @@ after which 10 digits account number is automatically generated for the customer
 <br/>
 <br/>
 
-If Staff selects check account details, they'll be asked for an account number to fetch the details of the account from the customer.txt file where all our customer details are saved and display it to the staff. They are then presented with these options again:
+## If Staff selects check account details
+They'll be asked for an account number to fetch the details of the account from the customer.txt file where all our customer details are saved and display it to the staff. They are then presented with these options again:
 #### 1 - Create new bank account
 #### 2 - Check Account Details
 #### 3 - Logout
@@ -57,7 +58,8 @@ If Staff selects check account details, they'll be asked for an account number t
 <br/>
 <br/>   
    
-If staff selects logout above, the user session that was created earlier will be deleted and staff will be returned back to thIS option:
+## If staff selects logout
+The user session that was created earlier will be deleted and staff will be returned back to thIS option:
 #### 1 - Staff Login
 #### 2 - Close App
    
