@@ -59,7 +59,7 @@ They'll be asked for an account number to fetch the details of the account from 
 <br/>   
    
 ## If staff selects logout
-The user session that was created earlier will be deleted and staff will be returned back to thIS option:
+The user session that was created earlier will be deleted and staff will be returned back to this option:
 #### 1 - Staff Login
 #### 2 - Close App
    
