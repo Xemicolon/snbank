@@ -1,6 +1,5 @@
-import os
-import json
-from login import login, logout, loginchoice, bankchoice, createAccount, accountType, generateAcct, fetchAccountDetails
+from bankfunc import login, logout, loginchoice, bankchoice, createAccount, accountType, generateAcct, fetchAccountDetails
+import random
 
 # Main program
 while True:
@@ -45,7 +44,7 @@ while True:
             accountType(account_type)
             account_email = input(
                 f'Enter your email to be associated with your account: ')
-            account_number = generateAcct()
+            account_number = ''.join(random.choices('0123456789', k=10))
             createAccount(username, account_name, opening_balance,
                           account_type, account_number, account_email)
             continue

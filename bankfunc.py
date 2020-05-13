@@ -2,7 +2,6 @@ import os
 import random
 from datetime import datetime
 import json
-import random
 
 
 def createAccount(username, account_name, opening_balance, account_type, account_number, account_email):
@@ -38,8 +37,6 @@ def createAccount(username, account_name, opening_balance, account_type, account
         print(
             f'New bank account created. Details below\n\nAccount name: {customer_name}\nAccount Number: {customer_account_number}')
 
-def generateAcct():
-    ''.join(random.choices('0123456789', k=10))
 
 def fetchAccountDetails(account_number):
     check_account = {
